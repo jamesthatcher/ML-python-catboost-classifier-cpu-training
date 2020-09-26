@@ -5,7 +5,7 @@ Quickstart project for executing an Wisconsin Breast Cancer classifier using the
 
 This Quickstart trains the model and persists as in ONNX format. The service runtime will then serve the model on localhost where the user can then send GET requests to perform inference.
 
-* In accordance with MLOps principles, running requirements.txt then python app.py will train a model and, if threshold metrics are passed, will convert the model to .onnx format, saving it as .model.onnx.
+* In accordance with MLOps principles, running `requirements.txt` then python `app.py` will train a model and, if threshold metrics are passed, will convert the model to `.onnx` format, saving it as `.model.onnx`.
 
 * Additionally, metrics will be saved to a .metrics/ folder.
 
